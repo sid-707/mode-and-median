@@ -1,0 +1,5 @@
+Exercise from [Chapter 8](https://doc.rust-lang.org/book/ch08-03-hash-maps.html#summary) of the Rust book.
+
+I've tried to make this as modular as possible. The code in the main function deals only with the CLI.
+The logic of the application is placed in modules.
+This way it can be extracted easily.
