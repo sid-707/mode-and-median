@@ -1,5 +1,16 @@
 Exercise from [Chapter 8](https://doc.rust-lang.org/book/ch08-03-hash-maps.html#summary) of the Rust book.
 
-I've tried to make this as modular as possible. The code in the main function deals only with the CLI.
-The logic of the application is placed in modules.
-This way it can be extracted easily.
+Given a list of integers, return its median and mode.
+
+Usage: User runs the program through the CLI and enters the length of the list. The program randomly generates the list elements. All numbers are between 0 and 10. It then prints the median and the mode.
+
+There are 5 versions of this program.
+
+Each is written in the same way:
+* The code in the main functions deal only with the CLI.
+* The logic of the application is placed in modules.
+* Each unit of functionality, except for the interface, has its own unit test.
+
+I've tried to make the code as modular as possible. This way the logic can be extracted easily.
+
+There's no error handling.
