@@ -14,3 +14,6 @@ Each is written in the same way:
 I've tried to make the code as modular as possible. This way the logic can be extracted easily.
 
 There's no error handling.
+
+Future improvements:
+    - Convert modules to WASM
