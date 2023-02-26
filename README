@@ -4,7 +4,7 @@ Given a list of integers, return its median and mode.
 
 Usage: User runs the program through the CLI and enters the length of the list. The program randomly generates the list elements. All numbers are between 0 and 10. It then prints the median and the mode.
 
-There are 3 versions of this program.
+There are 4 versions of this program.
 
 Each is written in the same way:
 * The code in the main functions deal only with the CLI.
