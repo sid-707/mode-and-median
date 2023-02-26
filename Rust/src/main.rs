@@ -15,7 +15,7 @@ fn main() {
 
     let range = args[1].parse::<i32>().unwrap();
 
-    let list = generators::generate_list(range);
+    let list = generators::generate_sorted_list(range);
 
     println!("sorted list: {:?}", list);
     println!();

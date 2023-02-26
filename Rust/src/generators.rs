@@ -1,6 +1,6 @@
 use rand::Rng;
 
-pub fn generate_list(range: i32) -> Vec<i32> {
+pub fn generate_sorted_list(range: i32) -> Vec<i32> {
     let mut rng = rand::thread_rng();
 
     let mut list = Vec::new();
@@ -19,9 +19,9 @@ mod tests {
     use super::*;
 
     #[test]
-    fn generate_list_generates_list_from_range() {
+    fn generate_sorted_list_generates_list_from_range() {
         let range = 3;
-        let list = generate_list(range);
+        let list = generate_sorted_list(range);
 
         assert_eq!(list.len() as i32, range);
     }

@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-pub fn get_mode(list: &[i32]) -> i32 {
+pub fn get_mode(list: &Vec<i32>) -> i32 {
 
     let mut counts_map = HashMap::new();
 
@@ -22,7 +22,7 @@ mod tests {
 
     #[test]
     fn get_mode_returns_mode_of_list() {
-        let list = [1,2,3,4,4,5];
+        let list = vec![1,2,3,4,4,5];
 
         assert_eq!(get_mode(&list), 4);
     }

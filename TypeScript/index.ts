@@ -4,12 +4,12 @@ Given a list of integers, use a vector and return the median (when sorted, the v
 Generate list randomly
 */
 
-import { generateList } from "./generators/index.ts";
+import { generateSortedList } from "./generators/index.ts";
 import { getMedian, getMode } from "./stats/index.ts";
 
 const range = parseInt(Deno.args[0]);
 
-const list: number[] = generateList(range);
+const list: number[] = generateSortedList(range);
 
 console.log("sorted list: ", list);
 console.log();

@@ -7,7 +7,7 @@ extend Generators
 
 range = ARGV[0].to_i
 
-list = Generators.generate_list(range)
+list = Generators.generate_sorted_list(range)
 
 puts "sorted list: #{list}"
 puts
