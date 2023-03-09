@@ -1,5 +1,5 @@
-require './stats.rb'
 require './generators.rb'
+require './stats'
 
 extend Stats::Median
 extend Stats::Mode
